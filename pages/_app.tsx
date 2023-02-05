@@ -1,12 +1,15 @@
-import '@/styles/globals.css'
-import { Navbar, Button, Footer } from "flowbite-react";
+import "@/styles/globals.css";
+import Image from "next/image";
+import { Navbar, Button } from "flowbite-react";
 import type { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {
   return <>  <Navbar className="sticky-navbar" fluid={true} rounded={true}>
           <Navbar.Brand href="/">
-    <img
+    <Image
       src="logo.svg"
+      width={50}
+      height={50}
       className="mx-3 h-6 sm:h-9"
       alt="Flexi Logo"
     />
