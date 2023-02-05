@@ -2,6 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document';
 import { Navbar, Button, Footer } from "flowbite-react";
 import { BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from "react-icons/bs";
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function Document() {
   return (
@@ -21,7 +22,7 @@ export default function Document() {
 
             <Image src="logo-white.svg" width={100} height={100} className="mx-auto mb-14 sm:mb-24" alt="Flexi Logo" />
                     <h2 className="text-white text-3xl mb-14 md:mb-24 md:text-4xl">Get started with Flexi today.</h2>
-                    <a
+                    <Link
                 href="/services"
                 className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-flexi-900 rounded-full bg-white hover:bg-flexi-800 hover:text-white focus:ring-4 focus:ring-flexi-300 dark:focus:ring-flexi-900"
               >
@@ -38,13 +39,13 @@ export default function Document() {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/register"
                 className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-white/20 rounded-full hover:bg-white/20 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Join Flexi
-              </a></div>
+              </Link></div>
             <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
               
             </div>

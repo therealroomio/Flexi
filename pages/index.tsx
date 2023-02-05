@@ -75,12 +75,12 @@ export default function Home() {
             </div>
             <div className="hidden ml-5 place-items-center relative lg:mt-0 lg:col-span-5 lg:flex flex-col lg:place-content-center">
             <Image width={100} height={100} alt="FlexiIcon" 
-                src="hero.jpg"
+                src="/hero.jpg"
 
                 className="rounded-2xl drop-shadow-xl w-5/6 absolute left-0 mb-40"
               />
               <Image width={100} height={100} alt="FlexiIcon" 
-                src="header.jpg"
+                src="/header.jpg"
 
                 className="rounded-2xl drop-shadow-xl absolute right-0 w-5/6 mt-80"
               />
