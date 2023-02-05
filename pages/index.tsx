@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 const features = [
@@ -47,7 +48,7 @@ export default function Home() {
                 appointments in-person or via video chat using Flexi. No more
                 waiting rooms!
               </p>
-              <a
+              <Link
                 href="/services"
                 className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-full bg-flexi-900 hover:bg-flexi-800 focus:ring-4 focus:ring-flexi-300 dark:focus:ring-flexi-900"
               >
@@ -64,23 +65,23 @@ export default function Home() {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/register"
                 className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-full hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Join Flexi
-              </a>
+              </Link>
             </div>
             <div className="hidden ml-5 place-items-center relative lg:mt-0 lg:col-span-5 lg:flex flex-col lg:place-content-center">
-            <img
+            <Image width={100} height={100} alt="FlexiIcon" 
                 src="hero.jpg"
-                alt="mockup"
+
                 className="rounded-2xl drop-shadow-xl w-5/6 absolute left-0 mb-40"
               />
-              <img
+              <Image width={100} height={100} alt="FlexiIcon" 
                 src="header.jpg"
-                alt="mockup"
+
                 className="rounded-2xl drop-shadow-xl absolute right-0 w-5/6 mt-80"
               />
             </div>

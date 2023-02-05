@@ -19,7 +19,7 @@ export default function Document() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
 
-            <img src="logo-white.svg" width="25%" className="mx-auto mb-14 sm:mb-24"/>
+            <Image src="logo-white.svg" width={100} height={100} className="mx-auto mb-14 sm:mb-24" alt="Flexi Logo" />
                     <h2 className="text-white text-3xl mb-14 md:mb-24 md:text-4xl">Get started with Flexi today.</h2>
                     <a
                 href="/services"

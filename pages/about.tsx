@@ -56,7 +56,7 @@ export default function Page() {
                   <div key={feature.name} className="relative pl-16">
                     <dt className="text-base font-semibold leading-7 text-gray-900">
                       <div className="absolute top-0 left-0 flex h-10 w-10 items-center justify-center">
-                        <img src="logo.svg"/>
+                        <Image width={100} height={100} alt="FlexiIcon" src="logo.svg"/>
                       </div>
                       <h2 className="text-2xl tracking-tight text-flexi-900">{feature.name}</h2>
                     </dt>
